@@ -25,4 +25,9 @@
     buttons[i].addEventListener('click', function () { set(this.getAttribute('data-language-button'), true); });
   }
   set(q || read() || browser, false);
+  // #chat (community rules link from the app) → English section when the page shows English
+  if (location.hash === '#chat' && document.body.dataset.language === 'en') {
+    var c = document.getElementById('chat-en');
+    if (c) c.scrollIntoView();
+  }
 })();
