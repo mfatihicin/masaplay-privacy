@@ -40,7 +40,7 @@
 <thead><tr><th scope="col">Veri kategorisi</th><th scope="col">Örnek veriler</th><th scope="col">Amaç</th><th scope="col">Hukuki sebep (KVKK m.5/2)</th></tr></thead>
 <tbody>
 <tr><td>Kimlik ve hesap</td><td>Rastgele kullanıcı kimliği; isteğe bağlı e-posta ve şifre özeti, ya da Google/Apple hesap kimliği, e-postası ve bu hizmetin paylaştığı ad</td><td>Hesabı oluşturmak, oturum açmak, ilerlemeyi cihazlar arasında korumak</td><td>(c) sözleşmenin kurulması ve ifası</td></tr>
-<tr><td>Profil ve yaş grubu</td><td>Görünen ad, emoji avatar, arkadaş kodu; yaş grubu (doğum yılı saklanmaz)</td><td>Seni masada ve arkadaş listesinde göstermek; online özellikleri yaşa uygun açmak</td><td>(c); yaşa göre kısıtlama için ayrıca (f) meşru menfaat</td></tr>
+<tr><td>Profil ve yaş grubu</td><td>Görünen ad, emoji avatar, arkadaş kodu; yaş grubu (cihaz/mağaza yaş bilgisinden veya doğum yılından belirlenir; doğum yılı saklanmaz)</td><td>Seni masada ve arkadaş listesinde göstermek; online özellikleri yaşa uygun açmak</td><td>(c); yaşa göre kısıtlama için ayrıca (f) meşru menfaat</td></tr>
 <tr><td>Oyun ve ilerleme</td><td>Maç sonuçları, derece puanı, XP, jeton bakiyesi ve hareketleri, eşyalar</td><td>Oyunları ve sıralamaları çalıştırmak, sanal ekonomiyi yönetmek</td><td>(c); hile önleme için (f)</td></tr>
 <tr><td>Online masa ve sohbet</td><td>Oda kodu, oyuncular, hamleler, oyun içi cevaplar, davetler; hazır mesajlar, emojiler ve — açıksa — serbest metin mesajlar</td><td>Online masaları ve masa içi sohbeti sunmak</td><td>(c)</td></tr>
 <tr><td>Trafik bilgisi</td><td>Sohbet gönderiminde kullanıcı ve masa kimliği, zaman, mesaj türü, IP adresi (içerik yok)</td><td>5651 sayılı Kanun m.5 kapsamındaki trafik bilgisi saklama yükümlülüğü</td><td>(ç) hukuki yükümlülük</td></tr>
@@ -77,7 +77,7 @@
 <ul>
 <li>Hesap, profil, yaş grubu, ilerleme, arkadaşlar, satın alma hakları: hesap süresince; hesap silinince hemen. 24 ay hareketsiz ve satın alımı olmayan misafir hesaplar otomatik silinir.</li>
 <li>Sohbet mesajları: 30 gün. Sohbet trafik kaydı (içeriksiz): 1 yıl.</li>
-<li>Şikayetler ve mesaj alıntıları: 12 ay (taraflardan biri hesabını silerse daha önce).</li>
+<li>Şikayetler ve mesaj alıntıları: 12 ay (taraflardan biri hesabını silerse daha önce). Moderasyon kararları (sohbet kısıtlaması, askıya alma): süresi bittikten sonra en geç 12 ay.</li>
 <li>Jeton hareketleri: 24 ay (satın alma ve tek seferlik ödül kayıtları hesap süresince). Ekonomi ve reklam olay kayıtları: 12 ay.</li>
 <li>Online masa verileri: oyun bittikten sonra en fazla 24 saat; davetler 1 gün.</li>
 <li>Bildirim jetonu: hesap silinene, oturum kapanana veya izin kaldırılana kadar; 270 gün yenilenmeyen jetonlar silinir.</li>
@@ -124,7 +124,7 @@
 <thead><tr><th scope="col">Category</th><th scope="col">Examples</th><th scope="col">Purpose</th><th scope="col">Legal basis (KVKK Art. 5/2)</th></tr></thead>
 <tbody>
 <tr><td>Identity and account</td><td>Random user ID; optional e-mail and password hash, or Google/Apple account ID, e-mail and the name that service shares</td><td>Creating the account, signing in, keeping progress across devices</td><td>(c) performance of a contract</td></tr>
-<tr><td>Profile and age group</td><td>Display name, emoji avatar, friend code; age group (year of birth not stored)</td><td>Showing you at tables and in friend lists; enabling online features by age</td><td>(c); age-based restrictions also (f) legitimate interest</td></tr>
+<tr><td>Profile and age group</td><td>Display name, emoji avatar, friend code; age group (derived from the device/store age signal or year of birth; year of birth not stored)</td><td>Showing you at tables and in friend lists; enabling online features by age</td><td>(c); age-based restrictions also (f) legitimate interest</td></tr>
 <tr><td>Gameplay and progress</td><td>Match results, rating, XP, coin balance and transactions, items</td><td>Running games and leaderboards, managing the virtual economy</td><td>(c); anti-cheat (f)</td></tr>
 <tr><td>Online tables and chat</td><td>Room code, players, moves, in-game answers, invites; quick phrases, emoji and — when enabled — free-text messages</td><td>Providing online tables and table chat</td><td>(c)</td></tr>
 <tr><td>Traffic data</td><td>For each chat send: user and table ID, time, message type, IP address (no content)</td><td>Traffic-data retention duty under Law No. 5651, Art. 5</td><td>(ç) legal obligation</td></tr>
@@ -161,7 +161,7 @@
 <ul>
 <li>Account, profile, age group, progress, friends, purchase entitlements: while the account exists; immediately deleted with the account. Guest accounts with no activity and no purchase for 24 months are deleted automatically.</li>
 <li>Chat messages: 30 days. Chat traffic log (no content): 1 year.</li>
-<li>Reports and message excerpts: 12 months (earlier if either player deletes their account).</li>
+<li>Reports and message excerpts: 12 months (earlier if either player deletes their account). Moderation decisions (chat restriction, suspension): up to 12 months after they expire.</li>
 <li>Coin transactions: 24 months (purchase and one-time reward entries while the account exists). Economy and ad event logs: 12 months.</li>
 <li>Online table data: at most 24 hours after the game; invites 1 day.</li>
 <li>Push token: until account deletion, sign-out or permission removal; tokens not refreshed for 270 days are deleted.</li>
